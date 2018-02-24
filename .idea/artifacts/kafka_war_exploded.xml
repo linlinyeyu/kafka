@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="kafka:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/kafka_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="kafka/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="kafka" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
